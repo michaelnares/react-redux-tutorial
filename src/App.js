@@ -2,7 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
+  console.log("The app has started.");
+  //store.subscribe();
+  //store.dispatch(addArticle({title: "Article 1", id: 1}));
+  //console.log(store.articles);
+
   return (
     <div className="App">
       <header className="App-header">

@@ -6,5 +6,5 @@ export function addArticle(payload) {
 }
 
 export function createNewArticlesArray(payload) {
-  return {type: CREATE_NEW_ARTICLES_ARRAY, payload};
+  return { type: CREATE_NEW_ARTICLES_ARRAY, payload };
 }
